@@ -713,6 +713,10 @@ def make_column_transformer(*transformers, **kwargs):
     be given names automatically based on their types. It also does not allow
     weighting with ``transformer_weights``.
 
+    Read more in the :ref:`User Guide <make_column_transformer>`.
+
+    Read more on Column Transformer in the :ref:`User Guide <column_transformer>`.
+
     Parameters
     ----------
     *transformers : tuples of transformers and column selections
